@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="mainTextSize">18sp</dimen>
+    <dimen name="minTextSize">15sp</dimen>
+    <dimen name="currentCityTemperature">85sp</dimen>
+    <dimen name="main_paddingLeft">10dp</dimen>
+    <dimen name="main_paddingRight">10dp</dimen>
+</resources>

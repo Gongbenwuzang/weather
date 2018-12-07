@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weather_main_info_marginTop">100dp</dimen>
+    <dimen name="weather_main_info_other_marginTop">50sp</dimen>
+    <dimen name="viewSplitTopBottom">1sp</dimen>
+    <dimen name="view_split_hostCityTitle_hostCityBody">1sp</dimen>
+    <dimen name="dimenMarginTopView">5sp</dimen>
+    <dimen name="dimenMarginBottomView">5sp</dimen>
+    <dimen name="showCurrentCityNameTEXT_layout_height">35dp</dimen>
+    <dimen name="showCurrentCityNameTEXT_layout_width">0dp</dimen>
+    <dimen name="showCurrentCityNameTEXT">25sp</dimen>
+    <dimen name="cityManagerIV_layout_width">0dp</dimen>
+    <dimen name="cityManagerIV_layout_height">25dp</dimen>
+    <dimen name="settingsIV_layout_width">0dp</dimen>
+    <dimen name="settingsIV_layout_height">25dp</dimen>
+    <dimen name="showCurrentCityNameTEXT_paddingBottom">5sp</dimen>
+    <dimen name="view_layout_height">1sp</dimen>
+    <dimen name="weather_proposal_title_TEXT_margin_start">10dp</dimen>
+    <dimen name="view_marginStart">10dp</dimen>
+    <dimen name="view_marginEnd">10dp</dimen>
+    <dimen name="weather_proposal_TEXT_margin_start">10sp</dimen>
+    <dimen name="addCityTEXT">30sp</dimen>
+    <dimen name="activity_manager_marginTop">5dp</dimen>
+    <dimen name="hotCityParentLayout_marginTop">35dp</dimen>
+    <dimen name="hostCityTitle_paddingStart">10sp</dimen>
+    <dimen name="hotCityBodyFirstRow_layout_marginBottom">20sp</dimen>
+    <dimen name="hot_city_list_layoutMarginTop">20sp</dimen>
+    <dimen name="hot_city_list_paddingEnd">10sp</dimen>
+    <dimen name="hot_city_list_paddingStart">10sp</dimen>
+    <dimen name="showCurrentLocationLL_marginBottom">15sp</dimen>
+    <dimen name="showCurrentLocationLL_marginTop">20sp</dimen>
+    <dimen name="locationCityTEXT_layout_marginTop">20sp</dimen>
+    <dimen name="showLocationInfo_layout_marginTop">10sp</dimen>
+    <dimen name="weatherSuggestionTitle_layout_marginTop">20dp</dimen>
+    <dimen name="weatherTitleView_layout_marginBottom">20dp</dimen>
+</resources>

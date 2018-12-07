@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main_header"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="#50000000"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/settingsIV"
+        android:layout_width="@dimen/settingsIV_layout_width"
+        android:layout_height="@dimen/settingsIV_layout_height"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/setting"
+        />
+
+    <TextView
+        android:id="@+id/showCurrentCityNameTEXT"
+        android:layout_width="@dimen/showCurrentCityNameTEXT_layout_width"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingBottom="@dimen/showCurrentCityNameTEXT_paddingBottom"
+        android:text="@string/showCurrentCityNameTEXT_default"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/showCurrentCityNameTEXT" />
+
+    <ImageView
+        android:id="@+id/cityManagerIV"
+        android:layout_width="@dimen/cityManagerIV_layout_width"
+        android:layout_height="@dimen/cityManagerIV_layout_height"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/choose" />
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/weather_main_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/weather_main_info_marginTop"
+    android:orientation="horizontal">
+
+    <!-- 显示此时天气气温的布局-->
+
+    <!-- 一个分割线 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="2"
+        android:background="#00000000"
+        android:orientation="vertical">
+        <!-- 显示此时天气气温的组件 -->
+        <TextView
+            android:id="@+id/currentCityTemperatureTEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/currentCityTemperatureTEXT"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/currentCityTemperature" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorSplitTemperatureOtherInfoView" />
+    <!-- 显示当日天气 天气状况和最低最高温  -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <!-- 显示天气状况的图片 -->
+
+        <ImageView
+            android:id="@+id/currentCityWeatherType"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/currentCityWeatherInfo"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+        <!-- 显示最低最高温度 -->
+        <TextView
+            android:id="@+id/currentCityLowHighTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/currentCityLowHighTemperature"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/mainTextSize" />
+
+        <!-- 显示风力 和风向 -->
+
+        <TextView
+            android:id="@+id/fengli"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.8"
+            android:text="风力"
+            android:textColor="@color/colorText" />
+
+    </LinearLayout>
+
+</LinearLayout>

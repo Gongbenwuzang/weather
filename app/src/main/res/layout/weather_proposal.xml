@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/weather_proposal_title_TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/weatherSuggestionTitle_layout_marginTop"
+        android:text="@string/weather_proposal_string"
+        android:layout_marginStart="@dimen/weather_proposal_title_TEXT_margin_start"
+        android:layout_marginBottom="@dimen/dimenMarginBottomView"
+        android:textSize="@dimen/minTextSize"
+        android:textColor="@color/colorText"
+        tools:ignore="SpUsage" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_layout_height"
+        android:layout_marginStart="@dimen/view_marginStart"
+        android:layout_marginEnd="@dimen/view_marginEnd"
+        android:layout_marginBottom="@dimen/weatherTitleView_layout_marginBottom"
+        android:background="@color/colorSplitTopBottomView" />
+
+    <TextView
+        android:id="@+id/weather_proposal_TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/weather_proposal_TEXT_margin_start"
+        android:lineSpacingExtra="10dp"
+        android:textSize="@dimen/mainTextSize"
+        android:textColor="@color/colorText"
+        android:text="\t\t今天的天气建议..." />
+
+</LinearLayout>

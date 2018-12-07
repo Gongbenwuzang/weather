@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_manager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_manager_marginTop"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/finishCurrentAtyTEXT"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="◀"
+            android:textSize="@dimen/showCurrentCityNameTEXT" />
+
+        <TextView
+            android:id="@+id/showCurrentCityNameTEXT"
+            android:layout_width="@dimen/showCurrentCityNameTEXT_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingBottom="@dimen/showCurrentCityNameTEXT_paddingBottom"
+            android:text="@string/showManagerTEXT"
+            android:textSize="@dimen/showCurrentCityNameTEXT" />
+
+        <TextView
+            android:id="@+id/addCityTEXT"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/main_paddingRight"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="＋"
+            android:textSize="@dimen/addCityTEXT" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewSplitTopBottom"
+        android:layout_marginBottom="@dimen/dimenMarginBottomView"
+        android:layout_marginTop="@dimen/dimenMarginTopView"
+        android:background="@color/colorSplitDeepColor" />
+
+    <!-- 开关控件布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/view_marginEnd"
+        android:layout_marginStart="@dimen/view_marginStart"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="自动定位"
+            android:textSize="@dimen/mainTextSize" />
+
+        <!--开关控件布局 -->
+        <Switch
+            android:id="@+id/locateSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="20dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showLocationInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/view_marginEnd"
+        android:layout_marginStart="@dimen/view_marginStart"
+        android:layout_marginTop="@dimen/showLocationInfo_layout_marginTop"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/locationCityTEXT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/locatePosition"
+            android:textSize="@dimen/mainTextSize" />
+
+        <TextView
+            android:id="@+id/locationCityTemperatureTEXT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/mainTextSize" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewSplitTopBottom"
+        android:layout_marginBottom="@dimen/dimenMarginBottomView"
+        android:layout_marginTop="@dimen/dimenMarginTopView"
+        android:layout_marginStart="@dimen/view_marginStart"
+        android:layout_marginEnd="@dimen/view_marginEnd"
+        android:background="@color/colorSplitDeepColor" />
+
+    <!--开启定位后 显示当前城市天气信息-->
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center_horizontal"
+        android:text="其他城市选择" />
+
+    <ListView
+        android:id="@+id/allCityInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

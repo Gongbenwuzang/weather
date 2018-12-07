@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="showCurrentCityNameTEXT_default">北京</string>
+    <string name="currentCityTemperatureTEXT">35C</string>
+    <string name="currentCityLowHighTemperature">气温</string>
+    <string name="currentCityWeatherInfo">currentCityWeatherInfo</string>
+    <string name="todayForecast">今日预报</string>
+    <string name="today">今天</string>
+    <string name="dateToday">dateToday</string>
+    <string name="weather_proposal_string">天气建议</string>
+    <string name="showManagerTEXT">城市管理</string>
+    <string name="hotCityTitle">热门城市</string>
+    <string name="beijing">北京</string>
+    <string name="shanghai">上海</string>
+    <string name="guangzhou">广州</string>
+    <string name="shenzhen">深圳</string>
+    <string name="tianjin">天津</string>
+    <string name="hangzhou">杭州</string>
+    <string name="dongguan">东莞</string>
+    <string name="ningbo">宁波</string>
+    <string name="locateTEXT">定位位置</string>
+    <string name="locateTemperatureTEXT">温度</string>
+    <string name="locationCityTEXT">定位的城市信息</string>
+    <string name="wendu">气温</string>
+    <string name="locatePosition">未开启定位</string>
+    <string name="weatherSource">中国气象局提供</string>
+</resources>
